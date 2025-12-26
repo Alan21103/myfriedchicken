@@ -1,11 +1,13 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+
 import { Eye, EyeOff, Lock, User, Coffee } from "lucide-react";
 import { toast } from "sonner";
-import { useAuth } from "@/contexts/AuthContext";
+import { useAuth } from "../context/AuthContext";
+import { Label } from "../components/label";
+import { Input } from "../components/input";
+import { Button } from "../components/button";
+
 
 const Login = () => {
   const navigate = useNavigate();

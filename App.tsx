@@ -5,16 +5,16 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, useAuth, UserRole } from "@/contexts/AuthContext";
 import Login from "./pages/Login";
-import POS from "./pages/POS";
-import NotFound from "./pages/NotFound";
-import OwnerMenu from "./pages/owner/OwnerMenu";
-import OwnerKategori from "./pages/owner/OwnerKategori";
-import OwnerPredikat from "./pages/owner/OwnerPredikat";
-import OwnerPajak from "./pages/owner/OwnerPajak";
-import OwnerKeuntungan from "./pages/owner/OwnerKeuntungan";
-import OwnerTren from "./pages/owner/OwnerTren";
-import KitchenPesanan from "./pages/kitchen/KitchenPesanan";
-import KitchenStok from "./pages/kitchen/KitchenStok";
+import POS from "./src/pages/POS";
+import NotFound from "./src/pages/NotFound";
+import OwnerMenu from "./src/pages/owner/OwnerMenu";
+import OwnerKategori from "./src/pages/owner/OwnerKategori";
+import OwnerPredikat from "./src/pages/owner/OwnerPredikat";
+import OwnerPajak from "./src/pages/owner/OwnerPajak";
+import OwnerKeuntungan from "./src/pages/owner/OwnerKeuntungan";
+import OwnerTren from "./src/pages/owner/OwnerTren";
+import KitchenPesanan from "./src/pages/kitchen/KitchenPesanan";
+import KitchenStok from "./src/pages/kitchen/KitchenStok";
 
 const queryClient = new QueryClient();
 
